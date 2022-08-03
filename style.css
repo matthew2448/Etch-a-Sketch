@@ -1,0 +1,25 @@
+.container{
+    border: 5px solid black;
+}
+.grid-container{
+    display: grid;
+    /* grid-template-columns: repeat(16, 20px);
+    grid-template-rows: repeat(16, 20px); */
+    grid-gap: 1px;
+    background-color: aqua;
+}
+
+.grid-item{
+    /*
+    display: inline-grid;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
